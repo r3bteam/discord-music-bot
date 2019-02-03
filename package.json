@@ -1,58 +1,38 @@
 {
-  "name": "discord-music-bot",
-  "version": "1.0.0",
-  "description": "Discord music bot based on discord.js & discord.js-commando",
+  "name": "bot",
+  "version": "0.0.1",
+  "description": "Test bot",
   "main": "index.js",
   "scripts": {
-    "prod": "node ./index.js",
-    "debug": "node --inspect-brk=127.0.0.1:8080 ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
- 
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mindaugaskasp/discord-music-bot.git"
-  },
-  "keywords": [
-    "discord",
-    "music",
-    "bot",
-    "voip",
-    "commando",
-    "mit",
-    "open",
-    "source",
-    "guide",
-    "bot",
-    "how",
-    "to",
-    "do",
-    "code"
-  ],
-  "author": "Mindaugas Kasparavičius",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mindaugaskasp/discord-music-bot/issues"
-  },
-  "homepage": "https://github.com/mindaugaskasp/discord-music-bot#readme",
+  "author": "Predrag Stošić",
+  "license": "ISC",
   "dependencies": {
-    "bufferutil": "^3.0.2",
-    "discord.js": "^11.2.1",
-    "discord.js-commando": "github:Gawdl3y/discord.js-commando#11.2",
+    "axios": "^0.18.0",
+    "discord.js": "^11.3.2",
+    "ffmpeg": "^0.0.4",
+    "ffmpeg-binaries": "^4.0.0",
+    "get-youtube-id": "^1.0.0",
+    "ffmpeg-binaries": "^4.0.0",
+    "opusscript": "0.0.6",
+        "bufferutil": "^3.0.2",
+    "child_process": "1.0.2",
+        "discord.js-commando": "github:Gawdl3y/discord.js-commando#11.2",
     "fluent-ffmpeg": "^2.1.2",
     "moment": "^2.19.1",
-    "node-opus": "^0.2.7",
+    "request": "^2.85.0",
+        "node-opus": "^0.2.7",
     "prism-media": "github:hydrabolt/prism-media",
     "promised-io": "^0.3.5",
     "sqlite": "^2.8.0",
-    "superagent": "^3.5.2",
+    "simple-youtube-api": "^5.0.2",
+        "superagent": "^3.5.2",
     "uws": "^8.14.1",
     "validator": "^9.1.1",
-    "ytdl-core": "^0.16.2",
-    "axios": "^0.15.3",
-    "discord-helpers": "github:mindaugaskasp/discord-helpers#master"
-  },
-    "engines": {
-    "node": "10.15.1"
+    "youtube-info": "^1.2.0",
+    "ytdl-core": "^0.28.0",
+        "discord-helpers": "github:mindaugaskasp/discord-helpers#master"
+
   }
 }
