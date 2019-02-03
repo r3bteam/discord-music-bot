@@ -8,6 +8,7 @@
     "debug": "node --inspect-brk=127.0.0.1:8080 ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+ 
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mindaugaskasp/discord-music-bot.git"
@@ -50,5 +51,8 @@
     "ytdl-core": "^0.16.2",
     "axios": "^0.15.3",
     "discord-helpers": "github:mindaugaskasp/discord-helpers#master"
+  }
+    "engines": {
+    "node": "10.3.0"
   }
 }
