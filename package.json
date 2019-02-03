@@ -51,7 +51,7 @@
     "ytdl-core": "^0.16.2",
     "axios": "^0.15.3",
     "discord-helpers": "github:mindaugaskasp/discord-helpers#master"
-  }
+  },
     "engines": {
     "node": "10.3.0"
   }
