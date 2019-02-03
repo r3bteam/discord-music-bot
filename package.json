@@ -53,6 +53,6 @@
     "discord-helpers": "github:mindaugaskasp/discord-helpers#master"
   },
     "engines": {
-    "node": "10.3.0"
+    "node": "10.15.1"
   }
 }
